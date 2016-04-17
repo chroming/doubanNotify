@@ -4,6 +4,12 @@
   "name": "doubanNotify",
   "description": "豆瓣小组新帖通知插件.",
   "version": "0.1",
+  
+  "app": {
+    "background": {
+      "scripts": ["getdouban.js"]
+    }
+  },
 
   "icons": {
     "16": "",
